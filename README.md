@@ -36,19 +36,16 @@ Steps:
 
 
 
-Here’s a structured design process for your **React "Load Image and Add Caption" project** to ensure clarity and smooth development:
-
----
 
 ### **1. Project Definition and Requirements**
    - **Objective**: Allow users to load images, add captions, and interact with a canvas to manipulate elements.
    - **Core Features**:
-     - Load images from a URL or local storage.
+  
      - Display the loaded image on a canvas.
      - Add editable captions or text over the image.
      - Add shapes or elements (e.g., circles, rectangles) to the canvas.
      - Save the edited canvas as an image.
-   - **Target Audience**: Users who need basic image editing capabilities for captions and annotations.
+  
 
 ---
 
@@ -58,7 +55,7 @@ Here’s a structured design process for your **React "Load Image and Add Captio
    - **State Management**: Use React's `useState` and `useEffect` hooks for handling application state.
    - **External APIs**:
      - For image search: Pixabay or similar image APIs.
-   - **File Management**: Use browser `localStorage` for saving and retrieving image URLs.
+   
 
 ---
 
